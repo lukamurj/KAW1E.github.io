@@ -1,0 +1,141 @@
+*{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.comp3prod{
+    width: 357px;
+    height: 301px;
+    border-radius: 20px;
+    left: 0px;
+    top: 0px;
+    }
+    .comp3off{
+        display: flex;
+        top: -280px;
+        left: 25px;
+        position: relative;
+    }
+    .comp3discount{
+    width: 119px;
+    height: 40px;
+    background: #F17228;
+    border-radius: 8px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .comp3discount .p{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    }
+    .comp3fast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin-left: 10px;
+    width: 90px;
+    height: 38px;
+    background: #FFB30E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .comp3fast .comp3typeoftime{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    }
+    .comp3logo{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 70px;
+    }
+    .comp3restourant{
+        display: flex;
+        position: relative;
+        margin-top: -30px;
+    }
+    .comp3name{
+    width: 250px;
+    height: 26px;
+    position: relative;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #424242;
+    }
+    .comp3rate{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 15px;
+    gap: 8px;
+    width: 55px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 106%;
+    color: #FFB30E;
+    order: 0;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFB30E;
+    }
+    .openNow{
+    padding: 8px 16px;
+    width: 149px;
+    height: 42px;
+    margin-top: 25px;
+    border-style: none;
+    background: rgba(121, 185, 60, 0.2);
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #79B93C;
+    }
+    .comp3typeoftime{
+        display: flex;
+    }
+    .openTowmorrow{
+    padding: 8px 16px;
+    width: 229px;
+    height: 42px;
+    margin-top: 25px;
+    border-style: none;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #F17228;
+    }

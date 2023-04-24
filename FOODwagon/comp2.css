@@ -1,0 +1,76 @@
+*{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.comp2prodImg {
+    height: 283px;
+    left: 0%;
+    right: 0.21%;
+    top: 0px;
+    }
+    .comp2name{
+    width: 180px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #424242;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .comp2location{
+    width: 153px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFB30E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .comp2cost{
+    width: 54px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #212121;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .comp2order{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 48px;
+    gap: 10px;
+    width: 285px;
+    height: 60px;
+    background: #F17228;
+    box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    .comp2text{
+    width: 100px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }

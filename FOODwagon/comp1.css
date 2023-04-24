@@ -1,0 +1,83 @@
+*{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.comp1prodimg {
+    width: 357px;
+    height: 301px;
+    border-radius: 15px;
+}
+
+.off {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px 11px;
+    position: relative;
+    width: 140px;
+    height: 83px;
+    left: 0px;
+    top: -86px;
+    background: #FFB30E;
+    border-radius: 0px 32px 0px 13px;
+}
+
+.offNum {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    color: #FFFFFF;
+}
+
+.proc {
+    width: 31px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+.offText {
+    width: 28px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.offDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.prodName {
+    height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #424242;
+    margin: -51px 0px 16px 0px;
+}
+
+.daysRemainingDiv{
+    width: 215px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    color: #F17228;
+    display: flex;
+    padding: 8px 16px;
+    margin-top: 15px;
+    gap: 10px;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 8px;
+}

@@ -1,0 +1,99 @@
+*{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.detailscomp4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.detailscomp4revers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+}
+.comp4prod{
+width: 961px;
+height: 512px;
+border-radius: 0px 25px 25px 0px;
+}
+.comp4prodrevers{
+    width: 961px;
+    height: 512px;
+    border-radius: 25px 0px 0px 25px;
+}
+.comp4left{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+}
+.comp4leftrevers{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+}
+.comp4title{
+width: 407px;
+height: 96px;
+font-weight: 700;
+font-size: 43px;
+line-height: 112%;
+color: #353535;
+flex: none;
+order: 0;
+flex-grow: 0;
+background-color: white;
+}
+h1 .comp4h1color{
+    color: #FFB800;
+    background-color: white;
+}
+.comp4text{
+    margin: 90px 70px 90px;
+    background-color: white;
+}
+.comp4body{
+width: 407px;
+height: 50px;
+margin-top: 25px;
+
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #757575;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+background-color: white;
+}
+.comp4order{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-style: none;
+padding: 21px 48px;
+gap: 10px;
+width: 407px;
+height: 60px;
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+align-self: stretch;
+font-weight: 900;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 60px;
+}

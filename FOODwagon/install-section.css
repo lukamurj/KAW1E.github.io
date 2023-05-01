@@ -1,285 +1,282 @@
-*{
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .install-section {
-    display: flex;
-    flex-direction: column;
-    padding: 130px 0px 0px;
-    background: #feefd0;
-  }
-  .upper-install {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 55px 65px;
-    margin: 0 auto;
-    width: 1230px;
-    background: #ffffff;
-    box-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01),
-      0px 27px 82px rgba(255, 174, 0, 0.28);
-    border-radius: 46px;
-    margin-bottom: 80px;
-  }
-  .discounts {
-    display: flex;
-    align-items: center;
-  }
-  .discounts-imgs {
-    position: relative;
-    width: 155px;
-    height: 118px;
-  }
-  .sales {
-    position: absolute;
-    z-index: 4;
-  }
-  .sales-1 {
-    position: absolute;
-    left: 12px;
-    top: 51px;
-    z-index: 5;
-  }
-  .sales-2 {
-    position: absolute;
-    left: 32px;
-    top: -17px;
-    z-index: 5;
-  }
-  .sales-3 {
-    position: absolute;
-    z-index: 3;
-    left: 21px;
-    top: 7px;
-  }
-  .sales-4 {
-    position: absolute;
-    z-index: 2;
-    left: 12px;
-    top: -5px;
-  }
-  .sales-shadow-1 {
-    position: absolute;
-    left: 32.5px;
-    z-index: 4;
-  }
-  .sales-shadow-2 {
-    position: absolute;
-    left: 11.5px;
-    top: 54px;
-    z-index: 4;
-  }
-  .sales-shadow-3 {
-    position: absolute;
-    left: 21.5px;
-    top: 51px;
-    z-index: 4;
-  }
-  .sales-shadow-4 {
-    position: absolute;
-    left: 44.5px;
-    top: 79px;
-    z-index: 4;
-  }
-  .upper-text h3 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    background: linear-gradient(92.84deg, #fb3c00 -47.72%, #ffb800 136.81%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .stick {
-    width: 2px;
-    height: 96px;
-    background: #cfcfcf;
-  }
-  .tracing {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .tracing-imgs {
-    position: relative;
-    width: 136px;
-  }
-  .location {
-    position: relative;
-    z-index: 2;
-  }
-  .location-1 {
-    position: absolute;
-    left: 17px;
-    top: 17px;
-    z-index: 3;
-  }
-  .location-2 {
-    border-radius: 50%;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-  }
-  .location-shadow-1 {
-    position: absolute;
-    left: -26px;
-    top: 84px;
-  }
-  .location-shadow-2 {
-    position: absolute;
-    left: 30px;
-    top: 94px;
-  }
-  .delivery {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  .delivery-imgs {
-    width: 166px;
-  }
-  .arrow {
-    position: absolute;
-    left: -10px;
-    top: -12px;
-  }
-  .hour-arrow {
-    position: absolute;
-    left: 53px;
-    top: 49px;
-    z-index: 5;
-  }
-  .hours {
-    position: absolute;
-  }
-  .minute-arrow {
-    position: absolute;
-    left: 49px;
-    top: 17px;
-    z-index: 5;
-  }
-  .mini-circle {
-    position: absolute;
-    border-radius: 50%;
-    width: 11px;
-    height: 11px;
-    left: 47px;
-    top: 47px;
-    z-index: 5;
-    background-color: white;
-  }
-  .shadow-1 {
-    position: absolute;
-    left: 47px;
-    top: 47px;
-    z-index: 3;
-  }
-  .shadow-2 {
-    position: absolute;
-    left: 49px;
-    top: 17px;
-    z-index: 4;
-  }
-  .hours-1 {
-    left: 23px;
-    top: 23px;
-  }
-  .hours-2 {
-    left: 48px;
-    top: 11px;
-    transform: rotate(45deg);
-  }
-  .hours-3 {
-    left: 73px;
-    top: 23px;
-    transform: rotate(90deg);
-  }
-  .hours-4 {
-    left: 82px;
-    top: 48px;
-    transform: rotate(135deg);
-  }
-  .hours-5 {
-    left: 73px;
-    top: 73px;
-    transform: rotate(180deg);
-  }
-  .hours-6 {
-    left: 48px;
-    top: 82px;
-    transform: rotate(-135deg);
-  }
-  .hours-7 {
-    left: 23px;
-    top: 73px;
-    transform: rotate(-90deg);
-  }
-  .hours-8 {
-    left: 11px;
-    top: 48px;
-    transform: rotate(-45deg);
-  }
-  .bottom-install {
-    margin: 0 auto;
-    margin-top: 61px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1150px;
-    width: 100%;
-    height: 548px;
-  }
-  .bottom-install-div {
-    background-color: #ffae00;
-    padding-bottom: 81px;
-    position: relative;
-    z-index: 0;
-  }
-  .phones {
-    /* margin-left: 353px;
+  display: flex;
+  flex-direction: column;
+  padding: 130px 0px 0px;
+  background: #feefd0;
+}
+.upper-install {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 65px;
+  margin: 0 auto;
+  width: 1230px;
+  background: #ffffff;
+  box-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01),
+    0px 27px 82px rgba(255, 174, 0, 0.28);
+  border-radius: 46px;
+  margin-bottom: 80px;
+}
+.discounts {
+  display: flex;
+  align-items: center;
+}
+.discounts-imgs {
+  position: relative;
+  width: 155px;
+  height: 118px;
+}
+.sales {
+  position: absolute;
+  z-index: 4;
+}
+.sales-1 {
+  position: absolute;
+  left: 12px;
+  top: 51px;
+  z-index: 5;
+}
+.sales-2 {
+  position: absolute;
+  left: 32px;
+  top: -17px;
+  z-index: 5;
+}
+.sales-3 {
+  position: absolute;
+  z-index: 3;
+  left: 21px;
+  top: 7px;
+}
+.sales-4 {
+  position: absolute;
+  z-index: 2;
+  left: 12px;
+  top: -5px;
+}
+.sales-shadow-1 {
+  position: absolute;
+  left: 32.5px;
+  z-index: 4;
+}
+.sales-shadow-2 {
+  position: absolute;
+  left: 11.5px;
+  top: 54px;
+  z-index: 4;
+}
+.sales-shadow-3 {
+  position: absolute;
+  left: 21.5px;
+  top: 51px;
+  z-index: 4;
+}
+.sales-shadow-4 {
+  position: absolute;
+  left: 44.5px;
+  top: 79px;
+  z-index: 4;
+}
+.upper-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  background: linear-gradient(92.84deg, #fb3c00 -47.72%, #ffb800 136.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stick {
+  width: 2px;
+  height: 96px;
+  background: #cfcfcf;
+}
+.tracing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tracing-imgs {
+  position: relative;
+  width: 136px;
+}
+.location {
+  position: relative;
+  z-index: 2;
+}
+.location-1 {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  z-index: 3;
+}
+.location-2 {
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.location-shadow-1 {
+  position: absolute;
+  left: -26px;
+  top: 84px;
+}
+.location-shadow-2 {
+  position: absolute;
+  left: 30px;
+  top: 94px;
+}
+.delivery {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.delivery-imgs {
+  width: 166px;
+}
+.arrow {
+  position: absolute;
+  left: -10px;
+  top: -12px;
+}
+.hour-arrow {
+  position: absolute;
+  left: 53px;
+  top: 49px;
+  z-index: 5;
+}
+.hours {
+  position: absolute;
+}
+.minute-arrow {
+  position: absolute;
+  left: 49px;
+  top: 17px;
+  z-index: 5;
+}
+.mini-circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+  left: 47px;
+  top: 47px;
+  z-index: 5;
+  background-color: white;
+}
+.shadow-1 {
+  position: absolute;
+  left: 47px;
+  top: 47px;
+  z-index: 3;
+}
+.shadow-2 {
+  position: absolute;
+  left: 49px;
+  top: 17px;
+  z-index: 4;
+}
+.hours-1 {
+  left: 23px;
+  top: 23px;
+}
+.hours-2 {
+  left: 48px;
+  top: 11px;
+  transform: rotate(45deg);
+}
+.hours-3 {
+  left: 73px;
+  top: 23px;
+  transform: rotate(90deg);
+}
+.hours-4 {
+  left: 82px;
+  top: 48px;
+  transform: rotate(135deg);
+}
+.hours-5 {
+  left: 73px;
+  top: 73px;
+  transform: rotate(180deg);
+}
+.hours-6 {
+  left: 48px;
+  top: 82px;
+  transform: rotate(-135deg);
+}
+.hours-7 {
+  left: 23px;
+  top: 73px;
+  transform: rotate(-90deg);
+}
+.hours-8 {
+  left: 11px;
+  top: 48px;
+  transform: rotate(-45deg);
+}
+.bottom-install {
+  margin: 0 auto;
+  margin-top: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1150px;
+  width: 100%;
+  height: 548px;
+}
+.bottom-install-div {
+  background-color: #ffae00;
+  position: relative;
+  z-index: 0;
+}
+.phones {
+  /* margin-left: 353px;
     margin-top: 170px; */
-    position: relative;
-    max-width: 530px;
-    width: 100%;
-    max-height: 665px;
-    height: 100%;
-  }
-  .phone-1 img {
-    position: absolute;
-    left: -21px;
-    top: 203px;
-  }
-  .phone-2 img {
-    position: absolute;
-    left: 255px;
-    top: 100px;
-  }
-  .install-app h2 {
-    font-weight: 700;
-    font-size: 68px;
-    line-height: 106%;
-    color: #ffb800;
-    max-width: 461px;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .install-app p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 140%;
-    color: #827e7e;
-    max-width: 432px;
-    width: 100%;
-  }
-  .downloads img {
-    max-width: 220px;
-    width: 100%;
-  }
-  .background {
-    position: absolute;
-    margin-left: -54.1%;
-    top: -140px;
-    width: 100%;
-    z-index: -1;
-  }
-  
+  position: relative;
+  max-width: 530px;
+  width: 100%;
+  max-height: 665px;
+  height: 100%;
+}
+.phone-1 img {
+  position: absolute;
+  left: -21px;
+  top: 123px;
+}
+.phone-2 img {
+  position: absolute;
+  left: 255px;
+  top: 20px;
+}
+.install-app h2 {
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 106%;
+  color: #ffb800;
+  max-width: 461px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.install-app p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #827e7e;
+  max-width: 432px;
+  width: 100%;
+}
+.downloads img {
+  max-width: 220px;
+  width: 100%;
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
